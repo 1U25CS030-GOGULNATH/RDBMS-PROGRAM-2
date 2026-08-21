@@ -1,14 +1,7 @@
-create database college;
-use college;
+create database colle;
+use colle;
 
-create table student1(
-    StudentID integer(5) primary key, 
-    Studentname varchar(20),
-    DOB date unique,
-    gender varchar(10), 
-    departmentID integer(5) not null
-);
-
+create table student1(StudentID integer(5) primary key,Studentname varchar(20),DOB date unique,gender varchar(10),departmentID integer(5) not null);
 desc student1;
 
 insert into student1 values ("12030", "Gogul", "2007-10-06", "Male", "10030");
